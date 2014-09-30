@@ -1,6 +1,6 @@
 {
   "name": "npm-tarball-globber",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Download files within npm packages and load them into memory",
   "main": "index.js",
   "scripts": {
