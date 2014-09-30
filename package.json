@@ -1,0 +1,20 @@
+{
+  "name": "npm-tarball-globber",
+  "version": "1.0.0",
+  "description": "Download files within npm packages and load them into memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repsitory": "https://github.com/zeke/npm-tarball-globber",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^4.0.6",
+    "superagent": "^0.19.0",
+    "tarball-extract": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
