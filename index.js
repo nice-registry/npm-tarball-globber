@@ -37,7 +37,11 @@ var getFiles = module.exports = function(packageName, globPattern, callback) {
           filenames.forEach(function(filename) {
             files[filename] = fs.readFileSync(path.resolve(tarballExtractionDir, filename)).toString()
           })
-          return callback(err, files)
+          return callback(err, {
+            name: packageName,
+            version: version,
+            files: files
+          })
         })
       }
     )
