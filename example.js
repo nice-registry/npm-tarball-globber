@@ -1,4 +1,4 @@
-var getFiles = require('./')
+var getFiles = require('.')
 
 // Get all the files in the `minimist` package
 getFiles("minimist", function(err, pkg){
